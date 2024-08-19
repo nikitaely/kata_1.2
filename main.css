@@ -31,6 +31,7 @@ button {
     width: 40px;
     height: 40px;
     border: 0px;
+    transition: 1s
 }
 
 button:hover {
@@ -46,14 +47,16 @@ button:hover {
     margin-right: 24px;
 }
 
-.menu-header__escape {
-    width: 16px;
-    height: 16px;
+.escape {
+    background-image: url('icons/escape.svg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
 }
 
-.menu-header__search {
-    width: 17px;
-    height: 17px;
+.search {
+    background-image: url('icons/search.svg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
 }
 
 .menu-header__logo {
@@ -128,9 +131,31 @@ ul {
     column-gap: 16px;
 }
 
+.call {
+    background-image: url('icons/call.svg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  
+}
+
+.chat {
+    background-image: url('icons/chat.svg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+ 
+}
+
+.profile {
+    background-image: url('icons/profile.svg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+
 .menu-contacts__email {
     margin: 0px;
     font-weight: 500;
+    color: black;
 }
 
 .menu-contacts__phone {
@@ -138,6 +163,7 @@ ul {
     font-size: 24px;
     line-height: 32px;
     font-weight: 700;
+    color: black;
 }
 
 .lang {
@@ -160,3 +186,4 @@ ul {
     margin-top: 0px;
     margin-bottom: 32px;
 }
+
